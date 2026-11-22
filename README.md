@@ -32,7 +32,7 @@ We strongly oppose deceptive activity that could put players and their accounts 
 
 ## PROVISIONAL WEBSITE RISK RATING
 
-**70/100 — HIGH RISK**
+**70/100 - HIGH RISK**
 
 **Evidence confidence: Limited.** This is a provisional, judgement-based score. Some indicators rely on supplied captures, and certain technical indicators arise from the same debug response. The categories may overlap; the total must not be interpreted as a statistical measurement.
 
@@ -95,4 +95,4 @@ We are here to document, warn and demand responsible action — not to encourage
 
 **FUCK SCAMMERS. PROTECT THE PLAYERS.**
 
-— Elarumi
+- Elarumi
