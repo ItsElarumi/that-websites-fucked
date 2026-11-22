@@ -10,19 +10,23 @@
 
 ---
 
-## 1. Executive summary
+## 1. Executive summary — SCAMMERS, WE SEE YOU
 
-This investigation began after a suspicious Fortnite tournament invitation was shared through Discord.
+**This investigation is a public call-out of suspicious activity that could put Fortnite players at risk.**
 
-The invitation promoted a tournament described as "FNCS PRO-LEAGUE" and encouraged the recipient to join a team called "Falcons". The message included a website presenting itself as a Fortnite competitive or esports destination.
+A Discord invitation promoted a tournament described as "FNCS PRO-LEAGUE" and encouraged the recipient to join a team called "Falcons". It directed attention towards a website presenting itself as a Fortnite competitive or esports destination.
 
-The website domain observed during the investigation was:
+The domain observed was:
 
 `fortnitecompetitive[.]fun`
 
-The invitation and website presentation raised concerns about possible brand impersonation and phishing.
+Let's be clear: players should not have to wonder whether a tournament invitation is genuine or whether a login page is trying to trick them.
 
-The available evidence does not establish that credentials were stolen, that the website successfully collected credentials, or that the website was operated by any particular person or organisation.
+The invitation, website presentation and technical observations raised serious concerns about **suspected phishing and possible brand impersonation**. These concerns deserve investigation and responsible action.
+
+**We are calling out the behaviour, warning players and documenting the evidence. We are not going to invent facts to make the case sound bigger.**
+
+The available evidence does not establish that credentials were stolen, that the website successfully collected credentials, or who operated it. Those limitations are stated openly throughout this report.
 
 ## 2. What was observed
 
@@ -204,20 +208,44 @@ The screenshot's authenticity and original capture date were not independently v
 
 The technical observations represent the results of checks performed during this investigation. They should not be interpreted as a guarantee of the website's current state.
 
-## 7. Current conclusion
+## 7. Current conclusion — PLAYERS DESERVE BETTER
 
-The combination of a Fortnite-themed tournament invitation, Fortnite-related website presentation, and the observed domain justified raising a phishing and possible impersonation concern.
+**We are not treating suspicious tournament invitations and login pages as harmless.**
 
-However, the available evidence is insufficient to establish:
+The combination of a Fortnite-themed tournament invitation, Fortnite-related website presentation and the observed domain raises a serious concern about suspected phishing and possible brand impersonation.
+
+Players deserve to know when something looks suspicious. They deserve to protect their accounts without being manipulated by fake opportunities.
+
+### What we can say
+
+- A Discord invitation promoted "FNCS PRO-LEAGUE" and a team called "Falcons".
+- The invitation directed attention towards a Fortnite-themed website.
+- Technical observations included domain registration and DNS information.
+- Investigator-supplied captures showed a Django debug error response exposing application settings and implementation details.
+- Relevant organisations and reporting channels are documented in this report.
+
+### What remains unproven
 
 - Who operates the website.
-- Whether the operator is intentionally impersonating Epic Games.
+- Whether the operator intentionally impersonated Epic Games.
 - Whether credentials or other information were collected.
 - Whether any visitor was compromised.
-- Whether Epic Games, Discord, REG.RU, or Cloudflare took action.
+- Whether Epic Games, Discord, REG.RU or Cloudflare took action.
 - Whether the website has since been disabled or changed.
 
-The appropriate conclusion is therefore **suspected phishing / possible brand impersonation**, pending confirmation by the relevant service providers.
+We will not pretend these unanswered questions have already been resolved. The appropriate evidence-based classification remains **suspected phishing / possible brand impersonation**.
+
+### OUR MESSAGE
+
+**To anyone behind suspicious schemes targeting players: people deserve honesty, not deceptive invitations and suspicious login pages.**
+
+**To players: protect your accounts. Verify tournament invitations. Never hand over credentials to a website just because it looks official.**
+
+**To the relevant service providers: review the evidence through your appropriate reporting channels and take any action warranted by your findings.**
+
+We are documenting this. We are warning people. We are demanding accountability.
+
+**FUCK SCAMMERS. PROTECT THE PLAYERS.**
 
 ## 8. Responsible disclosure
 
