@@ -88,6 +88,44 @@ The crt.sh lookup returned an HTTP 502 error during collection.
 
 This result was inconclusive. It does not establish that the domain had no certificates or that HTTPS was absent.
 
+### Reported SSL/TLS certificate details
+
+A security-details result supplied by the investigator reported the following:
+
+- SSL certificate status: Valid
+- HTTPS enabled: Yes
+- Reported certificate expiry: 15 February 2027
+
+The source of this security-details result is unknown. The certificate was not independently inspected or verified as part of this investigation. The issuer, certificate subject and Subject Alternative Names were not provided.
+
+A valid certificate and HTTPS connection do not establish that a website is legitimate, safe, or affiliated with Epic Games. Phishing websites can also use HTTPS.
+
+### Django debug and settings disclosure
+
+Two investigator-supplied text captures show a detailed Django technical error response for a GET request to the website's root page. The captures display application settings and request-environment information.
+
+The exposed application details include:
+
+- Django version: 5.1.7
+- Python version: 3.12.3
+- Django setting `DEBUG`: `True`
+- `ALLOWED_HOSTS`: `['*']`
+- URL configuration: `epicfishing.urls`
+- WSGI application: `epicfishing.wsgi.application`
+- Application directory: `/home/epicfishing`
+- Database engine: Django SQLite backend
+- Database path: `/home/epicfishing/db.sqlite3`
+- View: `frontend.views.index_page`
+- Error: `DoesNotExist`, raised during a database lookup in `price_fishingPage`
+
+The settings output also displays `CORS_ALLOW_ALL_ORIGINS=True` and `CORS_ALLOW_CREDENTIALS=True`. These are recorded as observed configuration values; they do not, by themselves, prove that credentialed cross-origin data access is possible.
+
+The response exposes internal application paths, framework configuration, middleware, installed applications and other implementation details. This is consistent with a Django debug information disclosure and potentially unsafe production configuration.
+
+The supplied captures mask the displayed secret key and password values. Request-specific identifiers, IP addresses and other potentially identifying metadata are excluded from this public report.
+
+The captures have been supplied by the investigator and have not been independently acquired or reproduced by this report's authoring environment. They do not establish credential theft, successful exploitation, database access, or the identity of the website operator.
+
 ## 4. Investigation boundaries
 
 The investigation was limited to passive observation and responsible reporting.

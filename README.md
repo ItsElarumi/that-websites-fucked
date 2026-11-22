@@ -16,6 +16,10 @@ The domain is deliberately defanged in this repository to reduce the risk of acc
 
 No credentials were submitted. No unauthorised access, exploitation, or disruption was performed.
 
+## Additional technical finding
+
+Investigator-supplied captures show a Django debug error response exposing application settings and internal implementation details. The report documents this as a potential information disclosure and security misconfiguration, not proof of credential theft or successful exploitation.
+
 ## Responsible disclosure
 
 This repository documents observations and reporting attempts. It does not publish private correspondence, account identifiers, screenshots supplied by another person, or the original evidence archive.
