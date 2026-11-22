@@ -51,6 +51,9 @@ The RDAP information collected during the investigation indicated:
 - Last changed: 22 November 2026
 - Expiration date: 17 November 2027
 - Registrar: REG.RU LLC
+- Registrar website: https://www.reg.ru/
+- Registrar abuse contact: abuse@reg.ru
+- Registrar abuse information: https://www.reg.ru/legal/abuse/
 
 Registration information identifies a registrar, not necessarily the website operator or the person responsible for the content.
 
@@ -145,6 +148,10 @@ Accordingly, this report does not claim confirmed credential theft, confirmed co
 
 ### Epic Games
 
+Official website: https://www.epicgames.com/
+
+Official security and vulnerability reporting: https://www.epicgames.com/site/security?lang=en
+
 An incident report and evidence archive were sent to Epic Games security on 22 November 2026.
 
 The automated response directed vulnerability reports to HackerOne.
@@ -166,6 +173,12 @@ The person who originally received the invitation reported the Discord message.
 The report reference and outcome were not independently confirmed for this investigation.
 
 ### Cloudflare
+
+Official website: https://www.cloudflare.com/
+
+Official abuse-reporting form: https://abuse.cloudflare.com/
+
+Cloudflare's documentation on submitting abuse reports: https://developers.cloudflare.com/fundamentals/reference/report-abuse/submit-report/
 
 Attempts to access the Cloudflare abuse portal resulted in access-block pages.
 
