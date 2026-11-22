@@ -56,11 +56,31 @@ Registration information identifies a registrar, not necessarily the website ope
 
 ### DNS observations
 
-The passive DNS lookup returned addresses associated with Cloudflare infrastructure and Cloudflare nameservers.
+The DNS lookup returned the following records:
 
-This does not establish that Cloudflare operates the website's origin server, owns the domain, or is responsible for its content.
+**A records (IPv4):**
+- `104.21.96.131`
+- `172.67.180.252`
 
-No MX or TXT records were returned by the lookup performed.
+**AAAA records (IPv6):**
+- `2606:4700:3035::6815:6083`
+- `2606:4700:3036::ac43:b4fc`
+
+**NS records (nameservers):**
+- `ignat.ns.cloudflare.com`
+- `ara.ns.cloudflare.com`
+
+**SOA record:**
+- Primary nameserver (MNAME): `ara.ns.cloudflare.com.`
+- Responsible party field (RNAME): `dns.cloudflare.com.`
+
+**MX records:** No records found in the lookup.
+
+**TXT records:** No records found in the lookup.
+
+The returned IP addresses and nameservers are consistent with Cloudflare infrastructure. This does not establish that Cloudflare operates the website's origin server, owns the domain, or is responsible for its content. The origin server and website operator were not identified.
+
+The absence of MX or TXT records in this lookup does not prove that the operator has no email service or that no other DNS configuration exists.
 
 ### Certificate transparency
 
