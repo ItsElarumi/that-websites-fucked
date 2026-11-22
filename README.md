@@ -21,6 +21,34 @@ We are independent investigators. We do not control, develop, endorse, promote o
 
 We strongly oppose deceptive activity that could put players and their accounts at risk. We are documenting concerns and reporting them — **we are not running the website.**
 
+## INVESTIGATION DISCLAIMERS
+
+- **Evidence limitation:** Some screenshots and captures were supplied to the investigation by another person or were investigator-supplied materials. They have not all been independently reproduced or authenticated.
+- **Identity limitation:** The website operator, domain owner’s real-world identity and any affiliation with Epic Games have not been independently established.
+- **Third-party neutrality:** Mentioning Epic Games, Discord, Cloudflare, REG.RU or another service provider does not mean that provider owns, operates, endorses or is responsible for the website.
+- **No exploitation:** We did not submit credentials, attempt unauthorised access, exploit the website or deliberately disrupt its operation.
+- **Time limitation:** Findings describe observations available on the stated investigation date. Website content, configuration and risk can change.
+- **Rating limitation:** The risk score below is an investigator-defined assessment of documented warning signs. It is not a certified industry rating, legal finding, probability of fraud or proof of criminal conduct.
+
+## PROVISIONAL WEBSITE RISK RATING
+
+**70/100 — HIGH RISK**
+
+**Evidence confidence: Limited.** This is a provisional, judgement-based score. Some indicators rely on supplied captures, and certain technical indicators arise from the same debug response. The categories may overlap; the total must not be interpreted as a statistical measurement.
+
+| Documented indicator | Points |
+|---|---:|
+| Public Django debug response exposing application and implementation details | 25 |
+| Disclosed configuration settings that warrant security review | 15 |
+| Fortnite-themed presentation raising possible brand-impersonation concerns | 15 |
+| Reported Discord tournament invitation directing users towards the site | 10 |
+| Recent domain registration — contextual indicator only | 5 |
+| **Provisional total** | **70/100** |
+
+**Rating scale:** 0–19 Low · 20–39 Guarded · 40–59 Elevated · 60–79 High · 80–100 Critical.
+
+The score does not establish that credentials were collected or stolen, that the site was operated by a particular person, or that the site is affiliated with Epic Games. A recent registration is not, by itself, evidence of malicious activity.
+
 ---
 
 **Read the full investigation:** [THAT-WEBSITES-FUCKED.md](THAT-WEBSITES-FUCKED.md)

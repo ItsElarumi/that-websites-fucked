@@ -26,6 +26,52 @@
 
 ---
 
+## INVESTIGATION DISCLAIMERS AND LIMITATIONS
+
+These disclosures apply to the entire report:
+
+1. **Independence:** Elarumi and the investigation team do not own, operate, control, develop, endorse or represent the website under investigation.
+2. **Evidence provenance:** Some screenshots and technical captures were supplied to the investigation. Their original capture circumstances, authenticity and completeness have not all been independently verified. The Django debug response has not been independently reproduced by this investigation.
+3. **Unverified identity and affiliation:** The identity of the website operator and any relationship with Epic Games or another organisation have not been established.
+4. **Third-party neutrality:** References to Epic Games, Discord, Cloudflare, REG.RU, DNS providers or infrastructure services identify relevant services or reporting channels only. They do not establish that those parties operate, endorse or are responsible for the website.
+5. **No credential or access testing:** No credentials were submitted. No attempt was made to gain unauthorised access, exploit the website, access its database or disrupt its operation. Credential theft and successful exploitation have not been demonstrated.
+6. **No attribution from network metadata:** Cloudflare-related DNS records and request headers do not establish the origin server, website operator or physical location of the operator.
+7. **Time sensitivity:** This report records observations available on 22 November 2026. The website and its configuration may have changed since then. The report is not a guarantee of its current state.
+8. **Rating methodology:** The risk score is a provisional investigator-defined heuristic, not a certified security standard, legal finding, statistical probability or proof of criminal conduct. The score is limited by the evidence and assumptions disclosed below.
+
+## PROVISIONAL WEBSITE RISK RATING
+
+**70/100 — HIGH RISK**
+
+**Evidence confidence: Limited.** The score reflects the warning signs documented in this report. It is a structured judgement, not a scientifically validated measurement. Some indicators rely on supplied captures, and the debug disclosure and configuration indicators arise from the same supplied response and may overlap.
+
+### Scoring breakdown
+
+| Indicator | Points | Basis and limitation |
+|---|---:|---|
+| Public Django debug information disclosure | 25 | Supplied captures show a debug error response containing application and implementation details; not independently reproduced |
+| Disclosed configuration settings warranting security review | 15 | Settings shown in the same captures, including permissive host and CORS configuration; effective exploitability was not tested |
+| Possible gaming-brand impersonation | 15 | Fortnite-themed presentation raised concern; intentional impersonation and affiliation have not been established |
+| Reported tournament invitation | 10 | A supplied Discord message promoted a tournament and directed attention towards the website; the sender's identity and intent have not been established |
+| Recent domain registration | 5 | Registration date is contextual information only and is not proof of malicious activity |
+| **Total** | **70/100** | **Provisional investigator assessment** |
+
+### Rating scale
+
+| Score | Rating | Interpretation |
+|---:|---|---|
+| 0–19 | Low | Few documented warning signs |
+| 20–39 | Guarded | Some warning signs |
+| 40–59 | Elevated | Several concerning indicators |
+| 60–79 | High | Multiple significant warning signs |
+| 80–100 | Critical | Extensive, strongly substantiated warning signs |
+
+**What this rating does not mean:** 70/100 does not mean a 70% probability of phishing, fraud or compromise. It does not prove credential collection, data theft, successful exploitation, criminal intent, operator identity or Epic Games affiliation.
+
+The score should be revised if independently verified evidence materially changes the assessment. Readers should consider the underlying evidence and limitations rather than relying on the number alone.
+
+---
+
 ## 1. Executive summary - SCAMMERS, WE SEE YOU
 
 **This investigation is a public call-out of suspicious activity that could put Fortnite players at risk.**
