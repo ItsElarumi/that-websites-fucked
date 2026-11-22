@@ -10,7 +10,7 @@
 
 ---
 
-## 🔴 INDEPENDENCE DISCLAIMER — WE ARE NOT AFFILIATED
+## 🔴 INDEPENDENCE DISCLAIMER - WE ARE NOT AFFILIATED
 
 > **NO MEMBER OF THE ELARUMI INVESTIGATION TEAM OWNS, OPERATES, CONTROLS, DEVELOPS OR REPRESENTS THE WEBSITE UNDER INVESTIGATION.**
 >
@@ -26,7 +26,7 @@
 
 ---
 
-## 1. Executive summary — SCAMMERS, WE SEE YOU
+## 1. Executive summary - SCAMMERS, WE SEE YOU
 
 **This investigation is a public call-out of suspicious activity that could put Fortnite players at risk.**
 
