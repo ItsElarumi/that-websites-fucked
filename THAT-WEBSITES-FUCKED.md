@@ -107,31 +107,55 @@ The source of this security-details result is unknown. The certificate was not i
 
 A valid certificate and HTTPS connection do not establish that a website is legitimate, safe, or affiliated with Epic Games. Phishing websites can also use HTTPS.
 
-### Django debug and settings disclosure
+### Django debug and backend configuration disclosure
 
-Two investigator-supplied text captures show a detailed Django technical error response for a GET request to the website's root page. The captures display application settings and request-environment information.
+**A publicly accessible Django debug response exposed substantial details about the application's internal configuration.**
 
-The exposed application details include:
+Two investigator-supplied text captures show a detailed Django technical error response for a GET request to the website's root page. The captures display application settings, framework details, internal paths and request-environment information.
 
-- Django version: 5.1.7
-- Python version: 3.12.3
+The observed backend fingerprint includes:
+
+- Django version: `5.1.7`
+- Python version: `3.12.3`
 - Django setting `DEBUG`: `True`
 - `ALLOWED_HOSTS`: `['*']`
 - URL configuration: `epicfishing.urls`
 - WSGI application: `epicfishing.wsgi.application`
 - Application directory: `/home/epicfishing`
+- Installed Django application: `frontend`
 - Database engine: Django SQLite backend
 - Database path: `/home/epicfishing/db.sqlite3`
+- GeoIP data-file path: `/home/epicfishing/static/GeoLite2-Country.mmdb`
 - View: `frontend.views.index_page`
 - Error: `DoesNotExist`, raised during a database lookup in `price_fishingPage`
 
-The settings output also displays `CORS_ALLOW_ALL_ORIGINS=True` and `CORS_ALLOW_CREDENTIALS=True`. These are recorded as observed configuration values; they do not, by themselves, prove that credentialed cross-origin data access is possible.
+#### Exposed configuration and security concerns
 
-The response exposes internal application paths, framework configuration, middleware, installed applications and other implementation details. This is consistent with a Django debug information disclosure and potentially unsafe production configuration.
+The supplied settings output includes:
 
-The supplied captures mask the displayed secret key and password values. Request-specific identifiers, IP addresses and other potentially identifying metadata are excluded from this public report.
+- `CORS_ALLOW_ALL_ORIGINS=True`
+- `CORS_ALLOW_CREDENTIALS=True`
+- `CSRF_TRUSTED_ORIGINS` containing `https://fortnite[.]com`, `https://urikclowns[.]shop` and `https://garikfortnite[.]shop`
 
-The captures have been supplied by the investigator and have not been independently acquired or reproduced by this report's authoring environment. They do not establish credential theft, successful exploitation, database access, or the identity of the website operator.
+These values show permissive CORS configuration and multiple configured CSRF trusted origins. They warrant security review. However, the settings alone do not prove that credentialed cross-origin data access is possible, that those domains are controlled by the same operator, or that all of them actively use this application.
+
+The `ALLOWED_HOSTS=['*']` setting is also permissive and should be reviewed for a production deployment.
+
+#### Cloudflare and origin attribution
+
+The supplied request information contains Cloudflare-related headers and metadata. This is consistent with the observed request passing through Cloudflare.
+
+**Cloudflare headers and edge IP information do not establish the actual origin server address.** The IP addresses and request metadata shown in the captures are not treated here as verified origin infrastructure or attribution.
+
+#### Why this matters
+
+Django's `DEBUG=True` setting is inappropriate for a publicly exposed production application. A debug error response can disclose implementation details, configuration values, filesystem paths and other information that should not be publicly available.
+
+The supplied captures show that substantial backend information was exposed. This is consistent with a Django debug information disclosure and potentially unsafe production configuration.
+
+The displayed secret key and password values are masked. The captures do not establish that the Django secret key, passwords or database contents were disclosed.
+
+The captures were supplied by the investigator and have not been independently acquired or reproduced by this report's authoring environment. They do not establish credential theft, successful exploitation, database access, or the identity of the website operator.
 
 ## 4. Investigation boundaries
 

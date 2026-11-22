@@ -30,7 +30,13 @@ These findings justify scrutiny and reporting. They do not independently prove c
 
 ## TECHNICAL SECURITY FINDING
 
-Investigator-supplied captures show a Django debug error response exposing application settings and internal implementation details. This is documented as a potential information disclosure and security misconfiguration — not proof of credential theft or successful exploitation.
+**A PUBLIC DJANGO DEBUG PAGE EXPOSED THE BACKEND CONFIGURATION.**
+
+Investigator-supplied captures show `DEBUG=True` and disclose a backend fingerprint including the `epicfishing` project, its `/home/epicfishing` application path, SQLite database configuration, the `frontend` app, a GeoIP data-file path, permissive host/CORS settings and multiple CSRF trusted origins.
+
+Cloudflare-related headers do not identify the actual origin server. Secret key and password values were masked. This is a serious potential information disclosure and security misconfiguration — not proof of credential theft, database access or successful exploitation.
+
+See the full report for the technical details and limitations.
 
 ## ACCOUNTABILITY, NOT GUESSWORK
 
