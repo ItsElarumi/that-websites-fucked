@@ -41,7 +41,7 @@ These disclosures apply to the entire report:
 
 ## PROVISIONAL WEBSITE RISK RATING
 
-**70/100 — HIGH RISK**
+**70/100 - HIGH RISK**
 
 **Evidence confidence: Limited.** The score reflects the warning signs documented in this report. It is a structured judgement, not a scientifically validated measurement. Some indicators rely on supplied captures, and the debug disclosure and configuration indicators arise from the same supplied response and may overlap.
 
