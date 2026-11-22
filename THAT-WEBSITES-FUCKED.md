@@ -206,9 +206,19 @@ The suspicious domain was not established to be an Epic-owned asset. No bounty e
 
 ### REG.RU
 
+Official website: https://www.reg.ru/
+
+Abuse reporting information: https://www.reg.ru/legal/abuse/
+
 An abuse report and evidence archive were sent to REG.RU on 22 November 2026.
 
-A response or remediation outcome had not been confirmed when this document was prepared.
+On 22 November 2026, REG.RU issued an automated acknowledgement confirming receipt of a support request.
+
+**Support reference:** `20261123373000095`
+
+The acknowledgement stated that the email was automatically generated and did not require a reply. It did not provide a substantive assessment, confirm that an investigation had begun, establish responsibility for the domain, or confirm any enforcement or remediation action.
+
+**Current status:** Receipt acknowledged. A substantive response and any investigation or remediation outcome remain unconfirmed.
 
 ### Discord
 
