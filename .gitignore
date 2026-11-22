@@ -1,0 +1,38 @@
+# Investigation backups
+*.bak
+*.bak.*
+*.pre-*.bak
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# Python cache and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_ed25519
+credentials.json
+secrets.json
+
+# Potentially sensitive local captures
+*.pcap
+*.pcapng
+*.har
+*.sqlite3
+*.db
+
+# Operating system files
+.DS_Store
+Thumbs.db
