@@ -2,8 +2,9 @@
   "algorithm": "SHA-256",
   "files": {
     ".gitignore": "a55fad7650ac3a46df85c83870503aff40f0679d9e5705aa7d22faa190632cd5",
-    "README.md": "5600a6600c7eaaa446e2e62172f0c8fdebed16dfdda6781df673a3911c563509",
-    "THAT-WEBSITES-FUCKED.md": "0ae57524894672b3693d4c6c128f193e4e909becb7fc85f876085088caa07f5b",
+    "PLAYER-PROTECTION.md": "baf86c16068a7fc4ba31f30af831b0ef6285e8c976c25f492f50eafeccc3460c",
+    "README.md": "5a52eee8a28eee9d2eaa358e2d155979ac355592a5febcea7814aea91373834c",
+    "THAT-WEBSITES-FUCKED.md": "b583436829d7dfd7ecbf99e13e878c7b2acbcd3516321e0206ddd3e1ac7c4c90",
     "scripts/integrity_check.py": "c0cc058ee61e6ca3e0817003cca7c9904b7f7763595a51d7b07e63368800ec28"
   }
 }

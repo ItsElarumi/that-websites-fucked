@@ -352,3 +352,11 @@ This report is intended to document observations and encourage responsible handl
 ---
 
 **FUCK SCAMMERS. GO GET A LIFE. XD <3**
+
+---
+
+## Player Protection
+
+This investigation also aims to help players protect their accounts.
+
+Read the [Elarumi Player Protection Guide](PLAYER-PROTECTION.md) for official Epic Games security resources, general online safety recommendations and personal advice from Elarumi.

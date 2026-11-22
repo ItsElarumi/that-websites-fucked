@@ -96,3 +96,11 @@ We are here to document, warn and demand responsible action — not to encourage
 **FUCK SCAMMERS. PROTECT THE PLAYERS.**
 
 - Elarumi
+
+---
+
+## 🛡️ PLAYER PROTECTION
+
+Your gaming account is worth protecting.
+
+Read our [Player Protection Guide](PLAYER-PROTECTION.md) for official Epic Games security guidance, general player safety advice and a personal message from Elarumi.
