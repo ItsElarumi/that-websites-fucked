@@ -12,6 +12,17 @@ We are calling out suspicious activity that could put players' accounts and pers
 **Prepared by:** Elarumi
 **Classification:** Suspected phishing / possible brand impersonation
 
+
+## 🔴 INDEPENDENCE DISCLAIMER
+
+**NO MEMBER OF THE ELARUMI INVESTIGATION TEAM OWNS OR OPERATES THE WEBSITE UNDER INVESTIGATION.**
+
+We are independent investigators. We do not control, develop, endorse, promote or represent the website or its operators.
+
+We strongly oppose deceptive activity that could put players and their accounts at risk. We are documenting concerns and reporting them — **we are not running the website.**
+
+---
+
 **Read the full investigation:** [THAT-WEBSITES-FUCKED.md](THAT-WEBSITES-FUCKED.md)
 
 ## WHAT WE'RE CALLING OUT

@@ -10,6 +10,22 @@
 
 ---
 
+## 🔴 INDEPENDENCE DISCLAIMER — WE ARE NOT AFFILIATED
+
+> **NO MEMBER OF THE ELARUMI INVESTIGATION TEAM OWNS, OPERATES, CONTROLS, DEVELOPS OR REPRESENTS THE WEBSITE UNDER INVESTIGATION.**
+>
+> Elarumi and the investigation team are independent of the website and its operators. We do not own it, run it, maintain it, endorse it, promote it or act on behalf of whoever is responsible for it.
+>
+> **WE DESPISE THE DECEPTION AND THE RISK IT CAN CREATE FOR PLAYERS.** We strongly oppose attempts to mislead people, impersonate trusted gaming brands or put players' accounts and personal information at risk.
+>
+> Our involvement is to document the available evidence, warn players and report our concerns through appropriate channels. We are not participating in, facilitating or profiting from the activity being investigated.
+>
+> **WE ARE REPORTING THIS WEBSITE. WE ARE NOT RUNNING IT.**
+>
+> This investigation uses the classification *suspected phishing / possible brand impersonation*. The identity and actions of the website's operator have not been independently established. Our criticism is directed at the suspicious activity documented in this report, not at an identified individual.
+
+---
+
 ## 1. Executive summary — SCAMMERS, WE SEE YOU
 
 **This investigation is a public call-out of suspicious activity that could put Fortnite players at risk.**
