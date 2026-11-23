@@ -3,7 +3,41 @@
 
 **STOP TARGETING PLAYERS. STOP HIDING BEHIND FAKE TOURNAMENTS.**
 
-This is Elarumi's public anti-scam investigation into a suspicious Fortnite-themed tournament invitation and website.
+This is Elarumi's independent cybersecurity, scam-awareness and player-safety investigation project.
+
+We document suspected phishing, possible brand impersonation, suspicious gaming websites, fraudulent tournament invitations, exposed technical information and online scam activity. Our goal is to help players recognise threats, protect their accounts and make safer decisions online.
+
+### OUR MISSION
+
+**Protect players. Expose suspicious activity. Promote safer gaming communities.**
+
+We believe in transparency, responsible research, digital awareness and accountability. We aim to:
+
+- Investigate suspicious websites and online activity using responsible, evidence-led methods.
+- Analyse publicly available information and document observable technical findings.
+- Preserve a clear record of evidence, reporting attempts and confirmed responses.
+- Help gamers recognise phishing attempts, suspicious invitations and deceptive login pages.
+- Share practical account-security and online-safety guidance.
+- Communicate relevant findings to platforms, service providers and appropriate abuse-reporting organisations.
+
+### RESEARCH AND PUBLICATIONS
+
+This repository contains independent investigation reports, technical observations, security analysis, responsible-disclosure records, evidence-integrity information and player-protection resources.
+
+Our research distinguishes between directly observed information, investigator-supplied material, third-party findings and unverified claims. We document limitations and avoid presenting suspicion as proof.
+
+### RESPONSIBLE RESEARCH PRINCIPLES
+
+- No unauthorised access, exploitation or deliberate disruption.
+- No submission of credentials to suspicious websites.
+- No unsupported attribution of website ownership or operator identity.
+- No publication of passwords, session tokens or unnecessary personal information.
+- Responsible reporting and clear documentation of confirmed outcomes.
+- No encouragement of harassment, threats or retaliation.
+
+This is an independent project. It is not an official security team, law-enforcement body or representative of any platform mentioned in its research.
+
+**THAT WEBSITE'S FUCKED. SCAMMERS. WE SEE YOU.**
 
 We are calling out suspicious activity that could put players' accounts and personal information at risk. Players deserve real tournaments, genuine opportunities and safe communities — not suspicious login pages dressed up as esports.
 
