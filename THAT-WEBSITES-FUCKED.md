@@ -6,7 +6,7 @@
 **Prepared by:** Elarumi
 **Investigation date:** 22 November 2026
 **Classification:** Suspected phishing / possible brand impersonation
-**Status:** Reports submitted to some relevant parties; outcomes unconfirmed.
+**Status:** Epic Games Support has confirmed further investigation; findings and outcomes remain unconfirmed.
 
 > [!NOTE]
 > **REPOSITORY SECURITY AND REPUTATION CHECK - 23 NOVEMBER 2026**
@@ -332,9 +332,15 @@ Epic Games Support replied to the earlier contact and directed the reporting par
 
 https://safety.epicgames.com/policies/reporting-misconduct/submit-report
 
-**Current status:** Epic Support provided the official reporting route. This response does not confirm that the website has been investigated, that a violation has been established, that a formal misconduct report has been submitted, or that any enforcement or remediation action has been taken.
+**Status at the time of this reply:** Epic Support had provided an official reporting route. That referral did not itself confirm an investigation, a violation, or any enforcement or remediation action.
 
-The next reporting step is to submit the available evidence through the form provided by Epic.
+#### Epic Games Support update — 23 November 2026
+
+In a subsequent email, Epic Games Support stated:
+
+> We're investigating your issue further and will contact you when our research is completed, or if we need more information.
+
+**Current status:** Epic Games Support has explicitly confirmed that it is investigating the reported issue further. Support has not yet provided its findings, confirmed a policy violation, or confirmed any enforcement action or remediation. Elarumi will await further contact from Epic or a request for additional information.
 
 ### REG.RU
 
