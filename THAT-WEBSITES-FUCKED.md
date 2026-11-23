@@ -219,6 +219,33 @@ The displayed secret key and password values are masked. The captures do not est
 
 The captures were supplied by the investigator and have not been independently acquired or reproduced by this report's authoring environment. They do not establish credential theft, successful exploitation, database access, or the identity of the website operator.
 
+### Third-party passive website scan — 23 November 2026
+
+A third party supplied Elarumi with terminal output from a passive investigation of the publicly accessible website at `fortnitecompetitive[.]fun`.
+
+The supplied output reports the following:
+
+- **12 pages/resources checked**
+- **164,631 bytes downloaded**
+- `robots.txt` returned HTTP 200.
+- The requested sitemap, manifest, security policy and other metadata paths returned HTTP 404.
+- **0 forms detected** by the scanner.
+- **2 external domains** identified; their names were not included in the supplied terminal output.
+- **0 webhook references** detected.
+- **0 Discord references** detected.
+- **0 API references** detected.
+- **1 scanning error:** `Invalid IPv6 URL`, encountered while processing the homepage.
+
+**Limitations and attribution:**
+
+These results were supplied by a third party. Elarumi has not independently reproduced or verified this scan. The scanner name, version, configuration and exact execution time were not provided with the output.
+
+The absence of detected forms, webhooks, Discord references or API references does not establish that these features do not exist elsewhere on the website. The HTTP 404 responses apply only to the specific paths requested.
+
+The `Invalid IPv6 URL` message is a reported URL-processing error. It does not, by itself, demonstrate an IPv6 vulnerability or malicious server behaviour.
+
+The results are supplementary observations only. They do not establish the website operator's identity, prove credential theft, confirm successful exploitation or independently establish the website's intent.
+
 ## 4. Investigation boundaries
 
 The investigation was limited to passive observation and responsible reporting.
