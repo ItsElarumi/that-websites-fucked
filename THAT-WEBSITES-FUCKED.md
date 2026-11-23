@@ -9,7 +9,7 @@
 **Status:** Reports submitted to some relevant parties; outcomes unconfirmed.
 
 > [!NOTE]
-> **REPOSITORY SECURITY AND REPUTATION CHECK — 23 NOVEMBER 2026**
+> **REPOSITORY SECURITY AND REPUTATION CHECK - 23 NOVEMBER 2026**
 >
 > VirusTotal's URL analysis of this public GitHub repository showed no security vendor detections in the recorded repository-page transaction (**0/93**). The scan also reported no trackers found and identified 96 JavaScript global variables belonging to the GitHub-hosted page environment.
 >
