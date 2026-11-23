@@ -250,6 +250,16 @@ The Epic Games HackerOne programme information reviewed during this investigatio
 
 The suspicious domain was not established to be an Epic-owned asset. No bounty eligibility or Epic investigation is claimed.
 
+#### Epic Games Support follow-up — 23 November 2026
+
+Epic Games Support replied to the earlier contact and directed the reporting party to submit a report about the potentially rule-violating or illegal content or conduct through its official misconduct-reporting form:
+
+https://safety.epicgames.com/policies/reporting-misconduct/submit-report
+
+**Current status:** Epic Support provided the official reporting route. This response does not confirm that the website has been investigated, that a violation has been established, that a formal misconduct report has been submitted, or that any enforcement or remediation action has been taken.
+
+The next reporting step is to submit the available evidence through the form provided by Epic.
+
 ### REG.RU
 
 Official website: https://www.reg.ru/
