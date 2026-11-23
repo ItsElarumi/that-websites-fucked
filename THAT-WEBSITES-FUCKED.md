@@ -246,6 +246,46 @@ The `Invalid IPv6 URL` message is a reported URL-processing error. It does not, 
 
 The results are supplementary observations only. They do not establish the website operator's identity, prove credential theft, confirm successful exploitation or independently establish the website's intent.
 
+### Related independent investigation — Cybersecurity Reach Foundation
+
+On 16 November 2026, the Cybersecurity Reach Foundation published an investigation titled [A Fortnite Phishing Kit Exposed by Its Own Errors](https://cybersecurityreach.org/investigations/a-fortnite-phishing-kit-exposed-by-its-own-errors).
+
+The Foundation documented a Fortnite-related phishing kit whose exposed Django debug pages identified its project as `EpicFishing`. Its investigation named three domains associated with that kit and identified a fourth domain in the kit's configuration.
+
+The Foundation's published technical findings include:
+
+- Django 5.1.7 and Python 3.12.3.
+- Project directory `/home/epicfishing`.
+- URL configuration `epicfishing.urls`.
+- SQLite database file `/home/epicfishing/db.sqlite3`.
+- Debug mode enabled and permissive host/CORS configuration.
+- Fortnite-related tournament and sign-in pages.
+
+**Comparison with the evidence in this report:**
+
+The Django debug-page captures supplied for `fortnitecompetitive[.]fun` contain several matching technical details:
+
+| Technical detail | Elarumi's supplied capture | Foundation's published investigation |
+|---|---|---|
+| Django version | 5.1.7 | 5.1.7 |
+| Python version | 3.12.3 | 3.12.3 |
+| Project directory | `/home/epicfishing` | `/home/epicfishing` |
+| URL configuration | `epicfishing.urls` | `epicfishing.urls` |
+| SQLite database | `/home/epicfishing/db.sqlite3` | `db.sqlite3` in `/home/epicfishing` |
+| Server hostname | `server-ks8cp3.novalocal` | `server-ks8cpz.novalocal` |
+
+The matching project name, software versions, directory structure and database path are notable technical similarities. The server hostname differs, and this report does not treat it as an exact match.
+
+**Attribution and limitations:**
+
+The Foundation's article does not name `fortnitecompetitive[.]fun` among the domains in its investigation. Elarumi has not independently verified that the two investigations concern the same deployment, operator or organisation.
+
+The similarities are consistent with the possibility that the target domain uses the same EpicFishing codebase or a closely related deployment. They do not independently prove shared ownership, common control, credential theft, successful exploitation or the identity of any operator.
+
+The Foundation's findings and Elarumi's supplied captures are separate evidence sources. They are compared here for investigative context, not presented as though the Foundation examined or confirmed the target domain.
+
+**External source:** [Cybersecurity Reach Foundation — A Fortnite Phishing Kit Exposed by Its Own Errors (16 November 2026)](https://cybersecurityreach.org/investigations/a-fortnite-phishing-kit-exposed-by-its-own-errors).
+
 ## 4. Investigation boundaries
 
 The investigation was limited to passive observation and responsible reporting.
