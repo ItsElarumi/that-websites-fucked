@@ -43,6 +43,10 @@ We believe in transparency, responsible research, digital awareness and accounta
 - Share practical account-security and online-safety guidance.
 - Communicate relevant findings to platforms, service providers and appropriate abuse-reporting organisations.
 
+### CHANGELOG
+
+Repository-wide documentation and publication history is recorded in [CHANGELOG.md](CHANGELOG.md).
+
 ### RESEARCH AND PUBLICATIONS
 
 This repository contains independent investigation reports, technical observations, security analysis, responsible-disclosure records, evidence-integrity information and player-protection resources.
