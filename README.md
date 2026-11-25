@@ -43,6 +43,10 @@ We believe in transparency, responsible research, digital awareness and accounta
 - Share practical account-security and online-safety guidance.
 - Communicate relevant findings to platforms, service providers and appropriate abuse-reporting organisations.
 
+### CASE TIMELINE
+
+See [CASE-TIMELINE.md](CASE-TIMELINE.md) for the dated chronology of investigation, reporting, provider responses and outstanding actions.
+
 ### EVIDENCE REGISTER
 
 See [EVIDENCE-REGISTER.md](EVIDENCE-REGISTER.md) for the case evidence index, provenance notes, verification status and handling guidance.
