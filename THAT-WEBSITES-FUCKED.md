@@ -4,7 +4,8 @@
 
 **Case ID:** ELARUMI-EPIC-2026-001
 **Prepared by:** Elarumi
-**Investigation date:** 22 November 2026
+**Investigation opened:** 22 November 2026
+**Last updated:** 25 November 2026
 **Classification:** Suspected phishing / possible brand impersonation
 **Status:** REG.RU has confirmed that the domain is blocked. Elarumi sent a detailed follow-up requesting clarification on 25 November 2026; REG.RU's response is pending. Epic Games Support previously confirmed further investigation; its findings and any action remain unconfirmed.
 
@@ -346,7 +347,7 @@ In a subsequent email, Epic Games Support stated:
 
 After receiving REG.RU's confirmation that the domain had been blocked, Elarumi sent a follow-up email to Epic Games Support notifying it of the registrar's response.
 
-**Status:** The email was confirmed as sent by Elarumi. No reply or further findings from Epic Games were available at the time of this update.
+**Status:** Elarumi confirmed sending this follow-up on 25 November 2026. It notified Epic Games Support that REG.RU had stated the domain was blocked. No reply or further findings from Epic Games were available at the time of this update.
 
 ### REG.RU
 
@@ -392,7 +393,9 @@ The email thanked REG.RU for confirming the block and requested clarification on
 
 The email expressly acknowledged that REG.RU may be unable to disclose confidential registrant information or internal investigative findings, and did not request private customer data.
 
-**Status as of 25 November 2026:** Elarumi confirmed that this follow-up email was sent. REG.RU's response to the clarification request is pending. No additional blocking details or investigation findings have been received.
+**Status as of 25 November 2026:** Elarumi confirmed that this detailed follow-up was sent in the existing support thread. REG.RU's response to the clarification request is pending. No additional blocking details or investigation findings have been received.
+
+The follow-up is a request for clarification, not a claim that REG.RU has agreed to provide all requested information. In particular, the public record still does not establish whether the restriction is temporary or permanent, whether registration-level suspension or DNS-level blocking was applied, or whether REG.RU made a formal finding of a policy violation.
 
 ### Discord
 
