@@ -5,6 +5,23 @@
 
 This is Elarumi's independent cybersecurity, scam-awareness and player-safety investigation project.
 
+## LATEST CASE UPDATE — REG.RU CONFIRMS DOMAIN BLOCKING
+
+REG.RU's Abuse Review Department has subsequently replied to Elarumi's abuse report concerning `fortnitecompetitive[.]fun` with:
+
+> Домен заблокирован.
+
+Translation: "The domain has been blocked."
+
+This confirms that REG.RU applied a blocking action to the domain. The supplied email excerpt does not establish whether the block is temporary or permanent, whether the registration has been deleted, or whether the website operator has been identified. This is a confirmed registrar response, not a conclusive finding of phishing or credential theft.
+
+**Case:** `ELARUMI-EPIC-2026-001`  
+**Registrar outcome:** Domain blocking confirmed  
+**Epic Games:** Support previously confirmed further investigation; findings and outcomes remain unconfirmed.
+
+See the [full investigation and reporting history](THAT-WEBSITES-FUCKED.md).
+
+
 We document suspected phishing, possible brand impersonation, suspicious gaming websites, fraudulent tournament invitations, exposed technical information and online scam activity. Our goal is to help players recognise threats, protect their accounts and make safer decisions online.
 
 ### OUR MISSION
@@ -115,7 +132,7 @@ See the full report for the technical details and limitations.
 
 Relevant organisations and reporting channels are documented in the full report, including REG.RU, Cloudflare, Epic Games and Discord.
 
-Their inclusion does not imply that they operate the website or have confirmed wrongdoing. Reporting outcomes remain subject to confirmation.
+Their inclusion does not imply that they operate the website or have confirmed wrongdoing. REG.RU has confirmed that the reported domain is blocked; the permanence and precise basis of that action are unknown. Epic Games Support previously confirmed further investigation, but its findings and any action remain unconfirmed.
 
 No credentials were submitted. No unauthorised access, exploitation or disruption was performed.
 
