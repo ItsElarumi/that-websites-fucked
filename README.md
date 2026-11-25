@@ -15,9 +15,11 @@ Translation: "The domain has been blocked."
 
 This confirms that REG.RU applied a blocking action to the domain. The supplied email excerpt does not establish whether the block is temporary or permanent, whether the registration has been deleted, or whether the website operator has been identified. This is a confirmed registrar response, not a conclusive finding of phishing or credential theft.
 
-**25 November 2026 follow-up:** Elarumi sent REG.RU a detailed clarification request in the existing support thread, asking about the type and duration of the block, public DNS/access impact, the relationship to the abuse report, any disclosable investigation outcome, further action, and evidence retention. REG.RU's reply is pending.
+**25 November 2026 — follow-up correspondence:** Elarumi sent REG.RU a detailed clarification request in the existing support thread (reference `20261123373000095`). It asks about the nature and duration of the block, public DNS/access impact, whether the action followed the abuse report, any disclosable investigation outcome, further action and evidence retention. REG.RU's reply is pending.
 
-Elarumi also confirmed sending Epic Games Support a follow-up notifying it of REG.RU's blocking confirmation. No response to that follow-up is yet recorded.
+Elarumi also sent Epic Games Support a follow-up notifying it of REG.RU's blocking confirmation. No response to that follow-up is yet recorded.
+
+**Latest documented position:** The registrar's blocking statement is confirmed; the exact technical/legal scope and duration are not. Epic Games' earlier statement that it was investigating remains the latest substantive response recorded. No provider has confirmed credential theft, operator identity or a final phishing determination.
 
 **Case:** `ELARUMI-EPIC-2026-001`  
 **REG.RU support reference:** `20261123373000095`  
