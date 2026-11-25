@@ -43,6 +43,11 @@ We believe in transparency, responsible research, digital awareness and accounta
 - Share practical account-security and online-safety guidance.
 - Communicate relevant findings to platforms, service providers and appropriate abuse-reporting organisations.
 
+### EVIDENCE REGISTER
+
+See [EVIDENCE-REGISTER.md](EVIDENCE-REGISTER.md) for the case evidence index, provenance notes, verification status and handling guidance.
+
+
 ### CHANGELOG
 
 Repository-wide documentation and publication history is recorded in [CHANGELOG.md](CHANGELOG.md).
