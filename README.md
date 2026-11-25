@@ -7,7 +7,7 @@ This is Elarumi's independent cybersecurity, scam-awareness and player-safety in
 
 ## LATEST CASE UPDATE — REG.RU CONFIRMS DOMAIN BLOCKING
 
-REG.RU's Abuse Review Department has subsequently replied to Elarumi's abuse report concerning `fortnitecompetitive[.]fun` with:
+REG.RU's Abuse Review Department replied to Elarumi's abuse report concerning `fortnitecompetitive[.]fun` with:
 
 > Домен заблокирован.
 
@@ -15,12 +15,16 @@ Translation: "The domain has been blocked."
 
 This confirms that REG.RU applied a blocking action to the domain. The supplied email excerpt does not establish whether the block is temporary or permanent, whether the registration has been deleted, or whether the website operator has been identified. This is a confirmed registrar response, not a conclusive finding of phishing or credential theft.
 
+**25 November 2026 follow-up:** Elarumi sent REG.RU a detailed clarification request in the existing support thread, asking about the type and duration of the block, public DNS/access impact, the relationship to the abuse report, any disclosable investigation outcome, further action, and evidence retention. REG.RU's reply is pending.
+
+Elarumi also confirmed sending Epic Games Support a follow-up notifying it of REG.RU's blocking confirmation. No response to that follow-up is yet recorded.
+
 **Case:** `ELARUMI-EPIC-2026-001`  
-**Registrar outcome:** Domain blocking confirmed  
+**REG.RU support reference:** `20261123373000095`  
+**Registrar outcome:** Domain blocking confirmed; clarification requested, response pending  
 **Epic Games:** Support previously confirmed further investigation; findings and outcomes remain unconfirmed.
 
 See the [full investigation and reporting history](THAT-WEBSITES-FUCKED.md).
-
 
 We document suspected phishing, possible brand impersonation, suspicious gaming websites, fraudulent tournament invitations, exposed technical information and online scam activity. Our goal is to help players recognise threats, protect their accounts and make safer decisions online.
 
@@ -58,11 +62,10 @@ This is an independent project. It is not an official security team, law-enforce
 
 We are calling out suspicious activity that could put players' accounts and personal information at risk. Players deserve real tournaments, genuine opportunities and safe communities — not suspicious login pages dressed up as esports.
 
-**Case:** ELARUMI-EPIC-2026-001
-**Investigation date:** 22 November 2026
-**Prepared by:** Elarumi
+**Case:** ELARUMI-EPIC-2026-001  
+**Investigation date:** 22 November 2026  
+**Prepared by:** Elarumi  
 **Classification:** Suspected phishing / possible brand impersonation
-
 
 ## 🔴 INDEPENDENCE DISCLAIMER
 
@@ -75,7 +78,7 @@ We strongly oppose deceptive activity that could put players and their accounts 
 ## INVESTIGATION DISCLAIMERS
 
 - **Evidence limitation:** Some screenshots and captures were supplied to the investigation by another person or were investigator-supplied materials. They have not all been independently reproduced or authenticated.
-- **Identity limitation:** The website operator, domain owner’s real-world identity and any affiliation with Epic Games have not been independently established.
+- **Identity limitation:** The website operator, domain owner's real-world identity and any affiliation with Epic Games have not been independently established.
 - **Third-party neutrality:** Mentioning Epic Games, Discord, Cloudflare, REG.RU or another service provider does not mean that provider owns, operates, endorses or is responsible for the website.
 - **No exploitation:** We did not submit credentials, attempt unauthorised access, exploit the website or deliberately disrupt its operation.
 - **Time limitation:** Findings describe observations available on the stated investigation date. Website content, configuration and risk can change.
@@ -132,7 +135,7 @@ See the full report for the technical details and limitations.
 
 Relevant organisations and reporting channels are documented in the full report, including REG.RU, Cloudflare, Epic Games and Discord.
 
-Their inclusion does not imply that they operate the website or have confirmed wrongdoing. REG.RU has confirmed that the reported domain is blocked; the permanence and precise basis of that action are unknown. Epic Games Support previously confirmed further investigation, but its findings and any action remain unconfirmed.
+Their inclusion does not imply that they operate the website or have confirmed wrongdoing. REG.RU has confirmed that the reported domain is blocked; Elarumi has requested clarification about the restriction and is awaiting a reply. Epic Games Support previously confirmed further investigation, but its findings and any action remain unconfirmed.
 
 No credentials were submitted. No unauthorised access, exploitation or disruption was performed.
 
