@@ -6,7 +6,7 @@
 **Prepared by:** Elarumi
 **Investigation date:** 22 November 2026
 **Classification:** Suspected phishing / possible brand impersonation
-**Status:** REG.RU has confirmed that the domain is blocked. Epic Games Support previously confirmed further investigation; its findings and any action remain unconfirmed.
+**Status:** REG.RU has confirmed that the domain is blocked. Elarumi sent a detailed follow-up requesting clarification on 25 November 2026; REG.RU's response is pending. Epic Games Support previously confirmed further investigation; its findings and any action remain unconfirmed.
 
 > [!NOTE]
 > **REPOSITORY SECURITY AND REPUTATION CHECK - 23 NOVEMBER 2026**
@@ -226,7 +226,7 @@ The supplied captures show that substantial backend information was exposed. Thi
 
 The displayed secret key and password values are masked. The captures do not establish that the Django secret key, passwords or database contents were disclosed.
 
-The captures were supplied by the investigator and have not been independently acquired or reproduced by this report's authoring environment. They do not establish credential theft, successful exploitation, database access, or the identity of the website operator.
+The captures were supplied by the investigator and have not been independently acquired or reproduced by this investigation's authoring environment. They do not establish credential theft, successful exploitation, database access, or the identity of the website operator.
 
 ### Third-party passive website scan — 23 November 2026
 
@@ -342,6 +342,12 @@ In a subsequent email, Epic Games Support stated:
 
 **Current status:** Epic Games Support has explicitly confirmed that it is investigating the reported issue further. Support has not yet provided its findings, confirmed a policy violation, or confirmed any enforcement action or remediation. Elarumi will await further contact from Epic or a request for additional information.
 
+#### Epic Games follow-up — 25 November 2026
+
+After receiving REG.RU's confirmation that the domain had been blocked, Elarumi sent a follow-up email to Epic Games Support notifying it of the registrar's response.
+
+**Status:** The email was confirmed as sent by Elarumi. No reply or further findings from Epic Games were available at the time of this update.
+
 ### REG.RU
 
 Official website: https://www.reg.ru/
@@ -356,7 +362,7 @@ On 22 November 2026, REG.RU issued an automated acknowledgement confirming recei
 
 The acknowledgement stated that the email was automatically generated and did not require a reply. It did not provide a substantive assessment, confirm that an investigation had begun, establish responsibility for the domain, or confirm any enforcement or remediation action.
 
-**Subsequent registrar response — domain blocking confirmed**
+#### Subsequent registrar response — domain blocking confirmed
 
 In a subsequent email response, REG.RU's Abuse Review Department stated:
 
@@ -366,7 +372,27 @@ Translation: "The domain has been blocked."
 
 This is an explicit confirmation from REG.RU that a blocking action was applied to the domain. The date and time of this reply are not visible in the email excerpt retained for this update.
 
-**Current status:** REG.RU has confirmed that the domain is blocked. The registrar did not state whether the block is temporary or permanent, whether the domain registration has been deleted, what specific grounds led to the action, or whether the website operator has been identified. This response does not, by itself, establish that phishing or credential theft was conclusively proven.
+**Confirmed outcome:** REG.RU has stated that the domain is blocked.
+
+**What remains unknown:** The registrar did not state whether the block is temporary or permanent, whether the domain registration has been deleted, what specific grounds led to the action, or whether the website operator has been identified. This response does not, by itself, establish that phishing or credential theft was conclusively proven.
+
+#### REG.RU clarification follow-up — 25 November 2026
+
+After receiving the short blocking confirmation, Elarumi sent a detailed follow-up email in the existing support thread, referencing support request `20261123373000095` and independent case `ELARUMI-EPIC-2026-001`.
+
+The email thanked REG.RU for confirming the block and requested clarification on:
+
+1. Whether the restriction is a domain-registration suspension, administrative restriction, or another form of blocking.
+2. Whether the restriction is temporary or permanent, and whether a review date or expected duration is known.
+3. Whether the domain is currently prevented from resolving publicly and whether the reported website paths are restricted.
+4. Whether the blocking action was taken in response to the abuse report under the stated support reference.
+5. Whether REG.RU's review is complete and whether any relevant policy violations were identified, to the extent REG.RU can disclose this.
+6. Whether any further investigation or enforcement action is planned.
+7. Whether relevant report and domain information has been retained under REG.RU's applicable policies and legal obligations.
+
+The email expressly acknowledged that REG.RU may be unable to disclose confidential registrant information or internal investigative findings, and did not request private customer data.
+
+**Status as of 25 November 2026:** Elarumi confirmed that this follow-up email was sent. REG.RU's response to the clarification request is pending. No additional blocking details or investigation findings have been received.
 
 ### Discord
 
@@ -420,7 +446,9 @@ Players deserve to know when something looks suspicious. They deserve to protect
 - The invitation directed attention towards a Fortnite-themed website.
 - Technical observations included domain registration and DNS information.
 - Investigator-supplied captures showed a Django debug error response exposing application settings and implementation details.
-- Relevant organisations and reporting channels are documented in this report.
+- REG.RU explicitly confirmed that the domain is blocked.
+- Elarumi sent REG.RU a detailed clarification request on 25 November 2026; a response is pending.
+- Elarumi notified Epic Games Support of the registrar's blocking confirmation; no reply to that follow-up is yet recorded.
 
 ### What remains unproven
 
@@ -429,7 +457,7 @@ Players deserve to know when something looks suspicious. They deserve to protect
 - Whether credentials or other information were collected.
 - Whether any visitor was compromised.
 - Whether Epic Games, Discord or Cloudflare took action. REG.RU has confirmed that the domain is blocked, but the duration and precise basis of that action are unknown.
-- Whether the website has since been disabled or changed.
+- Whether the website has since been disabled or changed beyond the registrar's stated blocking action.
 
 We will not pretend these unanswered questions have already been resolved. The appropriate evidence-based classification remains **suspected phishing / possible brand impersonation**.
 
