@@ -181,3 +181,8 @@ Cloudflare confirmation email header authentication: Proton Mail recorded SPF, D
 ## Supplemental Cloudflare receipt evidence
 
 The HTML-rendered body of the Cloudflare confirmation email has been preserved as a text transcription at [evidence/E-016-cloudflare-report-body-rendered.txt](evidence/E-016-cloudflare-report-body-rendered.txt). It is a representation supplied by the investigator, not the original .eml or raw MIME source. See E-016 in the evidence register for its scope and limitations.
+
+
+## Cloudflare follow-up — URLs reported inaccessible
+
+A follow-up message under Cloudflare Report ID `a5b2a25e9ec2dec5` states that the URLs in the report were no longer accessible when Cloudflare checked them. The check time, method and cause are not given; the message does not claim Cloudflare caused the inaccessibility or took enforcement action. See [E-017 follow-up transcription](evidence/E-017-cloudflare-url-inaccessible-followup.txt) and the [evidence register](EVIDENCE-REGISTER.md).
