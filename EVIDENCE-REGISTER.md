@@ -3,7 +3,8 @@
 **Case ID:** `ELARUMI-EPIC-2026-001`  
 **Subject:** `fortnitecompetitive[.]fun`  
 **Register opened:** 25 November 2026  
-**Register status:** Initial register; update when original evidence is reviewed, new evidence is received, or an item's verification status changes.
+**Last updated:** 26 November 2026  
+**Register status:** Updated to include REG.RU's administrator-only disclosure response; Epic Games follow-up outcome remains pending.
 
 This register indexes evidence and records its provenance and limitations. It is not a finding that the suspected conduct has been proven.
 
@@ -31,10 +32,11 @@ This register indexes evidence and records its provenance and limitations. It is
 | E-008 | By 22 Nov 2026 | Two text captures of a Django debug error response and settings | Investigator-supplied captures described in the report; **supplied technical evidence, not independently reproduced** | Captures reportedly expose framework, paths, settings and request-environment details. Their original capture circumstances and completeness are not fully verified. Do not infer exploitability or successful access. Keep originals private and redact sensitive values before any sharing. |
 | E-009 | 22 Nov 2026 onward | REG.RU abuse report and initial acknowledgement | Correspondence with registrar; support reference `20261123373000095`; **reported correspondence** | Preserve original sent message and full acknowledgement including headers. The acknowledgement alone was not an investigation outcome. |
 | E-010 | Received by 25 Nov 2026 | REG.RU response: "Домен заблокирован." | Written response attributed to REG.RU Abuse Review Department; exact Russian text recorded in the report; **registrar action confirmed by its statement** | Translation: "The domain has been blocked." The excerpt does not specify mechanism, duration, legal basis, registration status, policy finding or operator identity. Preserve original email. |
-| E-011 | 25 Nov 2026 | Detailed clarification email to REG.RU | User-confirmed sent correspondence in existing support thread `20261123373000095`; **sent, delivery/read status not independently established** | Requests clarification on block type and duration, DNS/access impact, relation to the report, investigation outcome, further action and evidence retention. Reply pending as last documented. Preserve sent copy. |
+| E-011 | 25 Nov 2026 | Detailed clarification email to REG.RU | User-confirmed sent correspondence in existing support thread `20261123373000095`; **sent, delivery/read status not independently established** | Requests clarification on block type and duration, DNS/access impact, relation to the report, investigation outcome, further action and evidence retention. REG.RU later replied; see E-015. Preserve sent copy. |
 | E-012 | Before 25 Nov 2026 | Epic Games Support response | Response quoted in the investigation history: Epic said it was investigating further and would contact the reporter when research was complete or if more information was needed; **reported provider correspondence** | Does not establish a final finding, enforcement action or confirmation of phishing. Preserve original email and headers. |
 | E-013 | 25 Nov 2026 | Follow-up notification to Epic Games Support about REG.RU's blocking confirmation | User-confirmed sent correspondence; **sent, delivery/read status not independently established** | No outcome from this follow-up was recorded at the time this register was created. Preserve sent copy and any later reply. |
 | E-014 | 23 Nov 2026 | VirusTotal scan of the GitHub repository URL | Separate scan transaction documented in `VIRUSTOTAL-REPOSITORY-ANALYSIS.md`; **third-party scan result** | This scan concerns the Elarumi GitHub repository page, not `fortnitecompetitive[.]fun`. It is not evidence that the reported website is malicious or safe. |
+| E-015 | After 25 Nov 2026 follow-up (exact reply timestamp not visible in supplied excerpt) | REG.RU clarification response: current block confirmed; detailed information restricted to domain administrator | Email response attributed to REG.RU's Abuse Review Department, received in the existing support thread; **provider statement supplied by the investigator** | Exact wording: “The domain is currently blocked. Detailed information regarding the block and the reasons for it can only be provided to the domain administrator.” Confirms REG.RU's stated current block and its disclosure limitation. Does not disclose the mechanism, duration, grounds, whether the action was specifically linked to report `20261123373000095`, any policy finding, evidence-retention status or operator identity. The original email and headers should be preserved privately. |
 
 ## Evidence storage and custody
 
@@ -63,7 +65,8 @@ Do not fill unknown fields by assumption. Mark them **unknown**, **not supplied*
 - **Passive observations:** RDAP and DNS lookup results.
 - **Inconclusive:** crt.sh HTTP 502 response.
 - **Unverified source:** reported SSL/TLS details.
-- **Pending:** REG.RU clarification response and Epic Games follow-up outcome.
+- **REG.RU clarification:** Response received; detailed block information and reasons are restricted to the domain administrator. The mechanism, duration, grounds and relationship to the abuse report remain undisclosed.
+- **Pending:** Epic Games follow-up outcome.
 - **Not established:** website operator identity, Epic Games affiliation, credential collection or theft, successful compromise, permanent domain deletion, or a final phishing determination.
 
 ## Related records
