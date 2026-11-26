@@ -533,3 +533,10 @@ For privacy and abuse-prevention reasons, the public record does not reproduce t
 ### Supplemental E-016 — preserved report-body representation
 
 The HTML-rendered body of Cloudflare's receipt email, as supplied by the investigator on 26 November 2026, has been preserved as [a text transcription](evidence/E-016-cloudflare-report-body-rendered.txt). The supplied rendering visibly retained HTML entities such as `&#34;` and `&#39;`. This artifact is not the original .eml, raw MIME source or a standalone original HTML attachment. It records the receipt notice and the report content Cloudflare reproduced, but does not add an investigation finding, forwarding confirmation, removal or enforcement outcome. The original email and raw headers should remain preserved privately and unmodified.
+
+
+### Supplemental E-017 — Cloudflare reports URLs no longer accessible
+
+A follow-up message from Cloudflare concerning the existing Report ID `a5b2a25e9ec2dec5` states: “The URLs included in your report are no longer accessible. Please check the URL you submitted to ensure it is correct.” The supplied message does not state when or how Cloudflare checked the URLs, provide technical response details, or explain why they were inaccessible. It does not say Cloudflare blocked or removed them. Cloudflare again states that it is not the hosting provider of the reported content. The follow-up text is preserved at [evidence/E-017-cloudflare-url-inaccessible-followup.txt](evidence/E-017-cloudflare-url-inaccessible-followup.txt).
+
+REG.RU had previously stated that the domain was currently blocked (E-015). That is relevant context, but the available messages do not establish that REG.RU's action caused the URLs to become inaccessible, nor do they establish any Cloudflare enforcement action. The actual hosting provider and reason for the reported inaccessibility remain unknown. The date/time and raw headers of this follow-up were not supplied with the message text.
