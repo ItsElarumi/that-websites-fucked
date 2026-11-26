@@ -417,11 +417,23 @@ Cloudflare's documentation on submitting abuse reports: https://developers.cloud
 
 Attempts to access the Cloudflare abuse portal resulted in access-block pages.
 
-No Cloudflare abuse report was successfully submitted during this investigation.
+#### Cloudflare abuse report — 26 November 2026
 
-An access-support enquiry was drafted but had not been sent when this document was prepared.
+Elarumi submitted a Phishing report to Cloudflare on 26 November 2026. Cloudflare sent an email confirming receipt for `fortnitecompetitive.fun` and assigned **Report ID `a5b2a25e9ec2dec5`**.
 
-No Cloudflare investigation or action is claimed.
+Cloudflare's email stated:
+
+> Cloudflare received your Phishing report regarding: fortnitecompetitive.fun.
+
+It also advised that this may be the only response and that, due to the volume of reports, a personalised response may not be provided. The email supplied `abusereply@cloudflare.com` as the reply address.
+
+The report included the two reported URLs, the public Elarumi investigation repository and its supporting documentation, and the investigator's distinction between observed facts and suspected activity.
+
+**Important scope clarification from Cloudflare:** Cloudflare explained that it provides services including pass-through security, CDN and domain registrar services; its IP addresses can appear in WHOIS and DNS records for sites using its services. Cloudflare stated that it is not generally a website hosting provider and cannot remove material hosted by others. Accordingly, this receipt does not establish that Cloudflare hosts the reported website, controls its content or can directly remove it.
+
+The email confirms receipt only. It does not provide an investigation finding, forwarding confirmation, content removal, infrastructure action or enforcement outcome. Cloudflare also warned that this may be the only response. Any subsequent reply should quote Report ID `a5b2a25e9ec2dec5`.
+
+This submission is recorded as evidence item E-016. No Cloudflare investigation outcome or enforcement action is claimed.
 
 ## 6. Evidence handling and privacy
 
