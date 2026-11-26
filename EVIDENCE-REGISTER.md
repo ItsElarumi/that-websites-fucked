@@ -100,3 +100,8 @@ These recipient-side results strongly support that the email was sent through in
 **Reply-address discrepancy:** the message body instructs the recipient to respond to `abusereply@cloudflare.com`, while the supplied `Reply-To` header is `noreply@notify.cloudflare.com`. The discrepancy is recorded without assuming its cause. If a response is necessary, manually compose a new message to the address explicitly stated in the body rather than relying on the automatic Reply action.
 
 For privacy and abuse-prevention reasons, the public record does not reproduce the complete raw headers, recipient address, unique bounce token, Message-ID or DKIM signature values. The original email should be retained privately and unmodified.
+
+
+### Supplemental E-016 — preserved HTML-rendered report body
+
+On 26 November 2026, the investigator supplied the HTML-rendered body of the Cloudflare confirmation email for preservation. A text transcription is stored at [evidence/E-016-cloudflare-report-body-rendered.txt](evidence/E-016-cloudflare-report-body-rendered.txt). The supplied rendering visibly included HTML entities such as `&#34;` and `&#39;`. This is a preserved representation of the body, not the original .eml, raw MIME source or a standalone original HTML attachment. The transcript records the confirmation, Report ID, reported URLs, submitted narrative, repository links and Cloudflare's service clarification. It adds no investigation finding or enforcement outcome. The original email and raw headers remain private and should be retained unmodified.
