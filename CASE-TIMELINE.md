@@ -49,6 +49,8 @@ This timeline records known investigation and reporting milestones in chronologi
 - Cloudflare clarified that it is not generally a website hosting provider and cannot remove content hosted by others. Its receipt does not establish that Cloudflare hosts or controls the reported website.
 - No investigation finding, forwarding confirmation, removal or enforcement outcome was supplied. This event is recorded as evidence item E-016.
 
+- The investigator supplied the HTML-rendered body of the Cloudflare receipt email for preservation. A text transcription was added as a supplemental E-016 artifact at `evidence/E-016-cloudflare-report-body-rendered.txt`. It is not the original .eml or raw MIME source; the original email and headers remain the authoritative private originals. The preserved body adds no investigation or enforcement outcome.
+
 ## Current position — 26 November 2026
 
 | Item | Recorded position |
