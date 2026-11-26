@@ -11,6 +11,7 @@ _No unreleased changes recorded._
 ## [2026-11-26]
 
 ### Added
+- Preserved the investigator-supplied HTML-rendered Cloudflare confirmation/report body as `evidence/E-016-cloudflare-report-body-rendered.txt`, linked it from E-016 and recorded that it is a transcription rather than the original .eml/raw MIME source.
 - Recorded Cloudflare's email confirmation that it received the Phishing report concerning `fortnitecompetitive.fun`; Cloudflare Report ID: `a5b2a25e9ec2dec5`.
 - Added evidence item E-016 and updated the main report, evidence register, case timeline, README and public investigation page.
 - Recorded Cloudflare's clarification that it is not generally a website hosting provider and cannot remove material hosted by others.
