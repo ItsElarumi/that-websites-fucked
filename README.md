@@ -173,3 +173,6 @@ We are here to document, warn and demand responsible action — not to encourage
 Your gaming account is worth protecting.
 
 Read our [Player Protection Guide](PLAYER-PROTECTION.md) for official Epic Games security guidance, general player safety advice and a personal message from Elarumi.
+
+
+Cloudflare confirmation email header authentication: Proton Mail recorded SPF, DKIM (both signing domains) and DMARC as passing, with TLS 1.3 transport. This supports sending through authorised Cloudflare email infrastructure, not an investigation outcome. The email body's stated reply address differs from the Reply-To header; see the full investigation report for the note.
