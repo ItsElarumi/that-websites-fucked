@@ -11,6 +11,16 @@ _No unreleased changes recorded._
 ## [2026-11-26]
 
 ### Added
+- Recorded Cloudflare's email confirmation that it received the Phishing report concerning `fortnitecompetitive.fun`; Cloudflare Report ID: `a5b2a25e9ec2dec5`.
+- Added evidence item E-016 and updated the main report, evidence register, case timeline, README and public investigation page.
+- Recorded Cloudflare's clarification that it is not generally a website hosting provider and cannot remove material hosted by others.
+- Refreshed the SHA-256 integrity manifest for updated documents and public page.
+
+### Evidence and status limitations
+- Cloudflare's email confirms receipt only. It warns that this may be the only response and supplies no investigation finding, forwarding confirmation, removal or enforcement outcome.
+- Cloudflare's clarification does not establish whether it provides any service to the reported domain or who hosts the website.
+
+### Added
 - Added evidence item E-015 documenting REG.RU's clarification response that the domain is currently blocked and detailed information about the block and reasons is restricted to the domain administrator.
 
 ### Updated
