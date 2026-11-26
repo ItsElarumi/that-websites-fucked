@@ -176,3 +176,8 @@ Read our [Player Protection Guide](PLAYER-PROTECTION.md) for official Epic Games
 
 
 Cloudflare confirmation email header authentication: Proton Mail recorded SPF, DKIM (both signing domains) and DMARC as passing, with TLS 1.3 transport. This supports sending through authorised Cloudflare email infrastructure, not an investigation outcome. The email body's stated reply address differs from the Reply-To header; see the full investigation report for the note.
+
+
+## Supplemental Cloudflare receipt evidence
+
+The HTML-rendered body of the Cloudflare confirmation email has been preserved as a text transcription at [evidence/E-016-cloudflare-report-body-rendered.txt](evidence/E-016-cloudflare-report-body-rendered.txt). It is a representation supplied by the investigator, not the original .eml or raw MIME source. See E-016 in the evidence register for its scope and limitations.
