@@ -1,0 +1,105 @@
+CLOUDFLARE TRUST & SAFETY — HTML-RENDERED REPORT RECEIPT BODY
+Case: ELARUMI-EPIC-2026-001
+Report ID: a5b2a25e9ec2dec5
+Reported domain: fortnitecompetitive.fun
+Date represented in the related email-header record: 26 November 2026
+
+PRESERVATION NOTE
+This text file preserves the report-body representation supplied by the investigator in the conversation on 26 November 2026. It is a transcription of the HTML-rendered email body, not the original .eml message, raw MIME source, or a standalone original HTML attachment. The supplied rendering visibly retained HTML entities including &#34; (quotation mark) and &#39; (apostrophe). The original email and raw headers should remain preserved privately and unmodified.
+
+EMAIL BODY (PRESERVED REPRESENTATION)
+
+Hello,
+
+Cloudflare received your Phishing report regarding: fortnitecompetitive.fun.
+
+This may be the only response you receive to your report. Given the high volume of reports we receive, you may not receive a personalized response to this report.
+
+To respond to this issue, please reply to abusereply@cloudflare.com.
+
+Below is the report we received:
+
+Report ID: a5b2a25e9ec2dec5
+
+Logs or other evidence of abuse: Case reference: ELARUMI-EPIC-2026-001
+
+Reported domain: fortnitecompetitive.fun
+
+Reported URLs:
+- https://fortnitecompetitive.fun/tournaments/falcons
+- https://fortnitecompetitive.fun/tournaments/falcons/login
+
+Summary of observed activity
+
+A Discord message promoted an alleged Fortnite-related tournament described as "FNCS PRO-LEAGUE" and invited recipients to join a team identified as "Falcons".
+
+The message directed users towards the reported domain, which presented Fortnite-related tournament content and included a dedicated login page.
+
+The combination of gaming-related tournament promotion, apparent Fortnite branding and a login page raised concerns about possible brand impersonation, misleading tournament registration and potential credential harvesting.
+
+Evidence and investigative limitations
+
+- A screenshot of the Discord promotional message has been preserved.
+- The reported tournament and login URLs have been recorded.
+- Passive RDAP research identified REG.RU LLC as the domain registrar.
+- No credentials were submitted.
+- No intrusive testing or unauthorised access was performed.
+- The identity of the website operator has not been established.
+- Official authorisation by Epic Games has not been established.
+- Credential collection or theft has not been technically confirmed.
+
+Registrar action
+
+The matter was reported to REG.RU under support reference "20261123373000095".
+
+REG.RU confirmed in writing that the domain had been blocked. Its subsequent clarification stated:
+
+"The domain is currently blocked. Detailed information regarding the block and the reasons for it can only be provided to the domain administrator."
+
+The precise blocking mechanism, duration and reason have not been disclosed.
+
+Requested action
+
+Please review the reported URLs and associated infrastructure for potential phishing, impersonation and credential-harvesting activity. Where appropriate, please forward the report to the relevant hosting provider or responsible abuse-handling entity for investigation.
+
+This report is submitted in good faith and distinguishes observed facts from suspected activity.
+
+Public investigation documentation
+
+https://github.com/ItsElarumi/that-websites-fucked
+
+Relevant records:
+- Full investigation report: https://github.com/ItsElarumi/that-websites-fucked/blob/main/THAT-WEBSITES-FUCKED.md
+- Evidence register (including E-015): https://github.com/ItsElarumi/that-websites-fucked/blob/main/EVIDENCE-REGISTER.md
+- Case timeline: https://github.com/ItsElarumi/that-websites-fucked/blob/main/CASE-TIMELINE.md
+- Repository overview: https://github.com/ItsElarumi/that-websites-fucked/blob/main/README.md
+- Changelog: https://github.com/ItsElarumi/that-websites-fucked/blob/main/CHANGELOG.md
+- SHA-256 integrity manifest: https://github.com/ItsElarumi/that-websites-fucked/blob/main/integrity/SHA256SUMS.json
+- Separate repository URL analysis: https://github.com/ItsElarumi/that-websites-fucked/blob/main/VIRUSTOTAL-REPOSITORY-ANALYSIS.md
+
+The repository documents the investigation methodology, reported URLs, available observations, evidence provenance, registrar correspondence, provider responses and outstanding uncertainties.
+
+The SHA-256 manifest records hashes for selected repository files to support integrity checking. It does not independently authenticate the underlying evidence or establish the truth of the allegations.
+
+The public repository is an investigator-maintained documentation record, not an independent third-party finding. Some original screenshots, correspondence and supplied technical captures are not publicly available in the repository.
+
+The separate VirusTotal analysis concerns the GitHub repository URL, not the reported website. It should not be interpreted as a scan or safety determination of fortnitecompetitive.fun.
+
+Reported URLs (defanged):
+hxxps://fortnitecompetitive[.]fun/tournaments/falcons
+hxxps://fortnitecompetitive[.]fun/tournaments/falcons/login
+
+Original Work Description:
+Targeted Brand Fortnite / Epic Games
+Legitimate brand URL https://www.fortnite.com/
+
+Cloudflare service clarification
+
+Cloudflare stated that it offers pass-through security services, CDN and registrar services; that its IP addresses may appear in WHOIS and DNS records for sites using Cloudflare; that it is not generally a website hosting provider; and that it cannot remove material hosted by others. The email linked to Cloudflare's Trust Hub abuse-approach information.
+
+Cloudflare Trust & Safety
+
+END OF PRESERVED BODY REPRESENTATION
+
+EVIDENCE LIMITATION
+This preserved text documents what the confirmation email said and the content Cloudflare represented as the submitted report. It confirms neither the accuracy of every allegation in the submitted report nor any investigation, forwarding, removal or enforcement outcome. The HTML-rendered representation is not byte-for-byte proof of the original email body source.
