@@ -38,6 +38,8 @@ This register indexes evidence and records its provenance and limitations. It is
 | E-014 | 23 Nov 2026 | VirusTotal scan of the GitHub repository URL | Separate scan transaction documented in `VIRUSTOTAL-REPOSITORY-ANALYSIS.md`; **third-party scan result** | This scan concerns the Elarumi GitHub repository page, not `fortnitecompetitive[.]fun`. It is not evidence that the reported website is malicious or safe. |
 | E-015 | After 25 Nov 2026 follow-up (exact reply timestamp not visible in supplied excerpt) | REG.RU clarification response: current block confirmed; detailed information restricted to domain administrator | Email response attributed to REG.RU's Abuse Review Department, received in the existing support thread; **provider statement supplied by the investigator** | Exact wording: “The domain is currently blocked. Detailed information regarding the block and the reasons for it can only be provided to the domain administrator.” Confirms REG.RU's stated current block and its disclosure limitation. Does not disclose the mechanism, duration, grounds, whether the action was specifically linked to report `20261123373000095`, any policy finding, evidence-retention status or operator identity. The original email and headers should be preserved privately. |
 
+| E-016 | 26 Nov 2026 | Cloudflare Phishing abuse-report receipt, Report ID `a5b2a25e9ec2dec5` | Email from Cloudflare Trust & Safety confirming receipt for `fortnitecompetitive.fun`; **receipt confirmed by provider email** | Cloudflare stated it received the Phishing report and warned that this may be the only response due to report volume. The report included the two reported URLs and the public investigation repository. Cloudflare clarified that it is not generally a website hosting provider and cannot remove material hosted by others. Receipt does not establish hosting responsibility, forwarding, investigation findings, removal or enforcement action. Reply address supplied: `abusereply@cloudflare.com`. Preserve the original email and headers privately. |
+
 ## Evidence storage and custody
 
 The investigation report states that some screenshots and technical captures were supplied. The public repository does not contain all original evidence. This register does not claim that originals, full email headers, raw lookup outputs or cryptographic hashes have all been collected.
@@ -66,6 +68,7 @@ Do not fill unknown fields by assumption. Mark them **unknown**, **not supplied*
 - **Inconclusive:** crt.sh HTTP 502 response.
 - **Unverified source:** reported SSL/TLS details.
 - **REG.RU clarification:** Response received; detailed block information and reasons are restricted to the domain administrator. The mechanism, duration, grounds and relationship to the abuse report remain undisclosed.
+- **Cloudflare:** Phishing report received by Cloudflare on 26 Nov 2026; Report ID `a5b2a25e9ec2dec5`. No investigation finding or enforcement outcome supplied.
 - **Pending:** Epic Games follow-up outcome.
 - **Not established:** website operator identity, Epic Games affiliation, credential collection or theft, successful compromise, permanent domain deletion, or a final phishing determination.
 
