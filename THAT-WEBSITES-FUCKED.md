@@ -509,3 +509,22 @@ This report is intended to document observations and encourage responsible handl
 This investigation also aims to help players protect their accounts.
 
 Read the [Elarumi Player Protection Guide](PLAYER-PROTECTION.md) for official Epic Games security resources, general online safety recommendations and personal advice from Elarumi.
+
+
+#### Supplemental E-016: email-header authentication
+
+The original message headers supplied by the reporter show the following recipient-side authentication results as recorded by Proton Mail:
+
+- SPF: **pass** for `cf-bounce.notify.cloudflare.com`.
+- DKIM: **pass** for signing domains `notify.cloudflare.com` and `cloudflare-smtp.com`.
+- DMARC: **pass** for the visible From domain `notify.cloudflare.com`.
+- Transport: received from `bg-bc.cloudflare-smtp.com` (IP `104.30.16.12`) over TLS 1.3.
+- Message date: 26 November 2026, 18:24:53 UTC; Proton recorded receipt at 18:24:57 UTC.
+- Visible sender: `Cloudflare Trust & Safety <abuse@notify.cloudflare.com>`.
+- Subject: `a5b2a25e9ec2dec5: Abuse Report Confirmation`.
+
+These recipient-side results strongly support that the email was sent through infrastructure authorised for Cloudflare's sending domains. They do not establish that Cloudflare investigated the reported website or took action.
+
+**Reply-address discrepancy:** the message body instructs the recipient to respond to `abusereply@cloudflare.com`, while the supplied `Reply-To` header is `noreply@notify.cloudflare.com`. The discrepancy is recorded without assuming its cause. If a response is necessary, manually compose a new message to the address explicitly stated in the body rather than relying on the automatic Reply action.
+
+For privacy and abuse-prevention reasons, the public record does not reproduce the complete raw headers, recipient address, unique bounce token, Message-ID or DKIM signature values. The original email should be retained privately and unmodified.
