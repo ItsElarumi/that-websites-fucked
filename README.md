@@ -150,7 +150,7 @@ See the full report for the technical details and limitations.
 
 Relevant organisations and reporting channels are documented in the full report, including REG.RU, Cloudflare, Epic Games and Discord.
 
-Their inclusion does not imply that they operate the website or have confirmed wrongdoing. REG.RU has confirmed that the reported domain is blocked; Elarumi has requested clarification about the restriction and is awaiting a reply. Epic Games Support previously confirmed further investigation, but its findings and any action remain unconfirmed.
+Their inclusion does not imply that they operate the website or have confirmed wrongdoing. REG.RU has confirmed that the reported domain is blocked; Elarumi has requested clarification about the restriction and is awaiting a reply. Cloudflare confirmed receipt of a Phishing report on 26 November 2026 (Report ID `a5b2a25e9ec2dec5`), but supplied no investigation finding or enforcement outcome and clarified that it is not generally a website hosting provider. Epic Games' findings and any action remain unconfirmed.
 
 No credentials were submitted. No unauthorised access, exploitation or disruption was performed.
 
