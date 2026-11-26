@@ -73,3 +73,9 @@ _No unreleased changes recorded._
 ---
 
 For the detailed incident chronology, evidence descriptions, reporting correspondence and current case status, see [THAT-WEBSITES-FUCKED.md](THAT-WEBSITES-FUCKED.md).
+
+
+### Supplemental E-016 email-header authentication
+- Recorded recipient-side SPF, DKIM and DMARC pass results, plus TLS 1.3 transport metadata.
+- Documented the difference between the email body's stated reply address and the Reply-To header.
+- Excluded the recipient address, bounce token, Message-ID and raw signature values from the public repository.
