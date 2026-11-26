@@ -8,6 +8,23 @@ This changelog records repository changes; it does not replace the underlying ev
 
 _No unreleased changes recorded._
 
+## [2026-11-26]
+
+### Added
+- Added evidence item E-015 documenting REG.RU's clarification response that the domain is currently blocked and detailed information about the block and reasons is restricted to the domain administrator.
+
+### Updated
+- Updated the evidence register, case timeline and investigation report to distinguish the newly received clarification response from the earlier blocking confirmation.
+- Recorded that REG.RU's reply does not disclose the blocking mechanism, duration, grounds, whether the action was specifically linked to the abuse report, a formal policy finding, or evidence-retention status.
+- Updated the repository overview and public investigation page so the latest case status no longer describes REG.RU's clarification response as pending.
+- Updated the classroom presentation to reflect the new evidence and the remaining uncertainties.
+- Refreshed the SHA-256 manifest for the changed repository documents and public page.
+
+### Evidence and status limitations
+- REG.RU's administrator-only disclosure statement does not prove phishing, credential collection or theft, operator identity, or the reason for the block.
+- The exact timestamp of REG.RU's clarification reply is not visible in the supplied email excerpt.
+- Epic Games' follow-up outcome remains unconfirmed.
+
 ## [2026-11-25]
 
 ### Added
