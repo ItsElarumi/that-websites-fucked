@@ -41,6 +41,14 @@ This timeline records known investigation and reporting milestones in chronologi
 - The repository changelog and evidence register were added or updated to improve auditability and evidence tracking.
 - The README and SHA-256 manifest were updated to link and account for the new records.
 
+## 26 November 2026 — Cloudflare confirms report receipt
+
+- Elarumi submitted a Phishing report to Cloudflare concerning `fortnitecompetitive.fun`, including the reported URLs and public GitHub investigation documentation.
+- Cloudflare emailed confirmation that it had received the report and assigned **Report ID `a5b2a25e9ec2dec5`**.
+- Cloudflare cautioned that this may be the only response due to report volume and that a personalised response may not be provided.
+- Cloudflare clarified that it is not generally a website hosting provider and cannot remove content hosted by others. Its receipt does not establish that Cloudflare hosts or controls the reported website.
+- No investigation finding, forwarding confirmation, removal or enforcement outcome was supplied. This event is recorded as evidence item E-016.
+
 ## Current position — 26 November 2026
 
 | Item | Recorded position |
@@ -52,6 +60,8 @@ This timeline records known investigation and reporting milestones in chronologi
 | REG.RU clarification response | Received; detailed block information and reasons restricted to domain administrator |
 | Epic Games investigation | Previously reported as ongoing |
 | Epic Games follow-up outcome | Pending |
+| Cloudflare Phishing report | Received; Report ID `a5b2a25e9ec2dec5` |
+| Cloudflare investigation / enforcement outcome | Not provided / not established |
 | Website operator identity | Not established |
 | Epic Games affiliation | Not established |
 | Credential collection or theft | Not established |
