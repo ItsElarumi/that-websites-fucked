@@ -3,7 +3,8 @@
 **Case ID:** `ELARUMI-EPIC-2026-001`  
 **Subject:** `fortnitecompetitive[.]fun`  
 **Timeline opened:** 25 November 2026  
-**Status:** Open — registrar blocking confirmed by REG.RU's statement; clarification and Epic Games follow-up remain pending as last recorded.
+**Last updated:** 26 November 2026  
+**Status:** Open — REG.RU says the domain is currently blocked; its clarification response limits detailed disclosure to the domain administrator. Epic Games follow-up remains pending.
 
 This timeline records known investigation and reporting milestones in chronological order. Dates are included only where supported by the investigation record. Where an exact time or date is not available, that limitation is stated rather than inferred.
 
@@ -34,12 +35,13 @@ This timeline records known investigation and reporting milestones in chronologi
 - This confirms that REG.RU stated a blocking action had been applied. The response did not specify whether the domain registration itself was suspended, the technical mechanism, duration, legal basis, or whether a final policy finding had been made.
 - Elarumi sent a follow-up notification to Epic Games Support informing it of REG.RU's blocking confirmation. The fact that the message was sent is recorded; delivery, reading and any resulting action are not independently established.
 - Elarumi sent REG.RU a detailed clarification email under support reference `20261123373000095`. It asked about the type and duration of the restriction, DNS/access effects, whether it related to the abuse report, investigation findings, further action and evidence retention.
-- REG.RU's response to that clarification request was pending at the time of this timeline's creation.
-- Epic Games' response to the follow-up notification was also pending. Earlier correspondence had indicated that Epic Games was investigating, but no final finding or enforcement outcome was confirmed.
+- REG.RU later replied that the domain was currently blocked and that detailed information about the block and its reasons could only be provided to the domain administrator. The exact timestamp of this reply is not visible in the supplied email excerpt; see evidence item E-015.
+- This response does not disclose the block mechanism, duration, grounds, whether the action was specifically linked to support reference `20261123373000095`, whether a policy violation was formally identified, or whether evidence was retained. It does not establish phishing or credential theft.
+- Epic Games' response to the follow-up notification remained pending. Earlier correspondence had indicated that Epic Games was investigating, but no final finding or enforcement outcome was confirmed.
 - The repository changelog and evidence register were added or updated to improve auditability and evidence tracking.
 - The README and SHA-256 manifest were updated to link and account for the new records.
 
-## Current position — 25 November 2026
+## Current position — 26 November 2026
 
 | Item | Recorded position |
 |---|---|
@@ -47,7 +49,7 @@ This timeline records known investigation and reporting milestones in chronologi
 | Exact blocking mechanism | Not specified |
 | Temporary or permanent | Not specified |
 | Domain registration deleted | Not established |
-| REG.RU clarification response | Pending |
+| REG.RU clarification response | Received; detailed block information and reasons restricted to domain administrator |
 | Epic Games investigation | Previously reported as ongoing |
 | Epic Games follow-up outcome | Pending |
 | Website operator identity | Not established |
@@ -59,7 +61,7 @@ This timeline records known investigation and reporting milestones in chronologi
 
 Add a dated entry when a material event occurs, such as:
 
-- A reply from REG.RU clarifying the blocking action.
+- Any further REG.RU information that can be disclosed by the domain administrator or registrar.
 - A further response or final finding from Epic Games.
 - New independently verifiable technical evidence.
 - A material change in the domain's registration, DNS or accessibility status, with the observation date, method and source recorded.
