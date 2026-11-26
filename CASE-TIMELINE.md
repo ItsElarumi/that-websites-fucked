@@ -51,6 +51,8 @@ This timeline records known investigation and reporting milestones in chronologi
 
 - The investigator supplied the HTML-rendered body of the Cloudflare receipt email for preservation. A text transcription was added as a supplemental E-016 artifact at `evidence/E-016-cloudflare-report-body-rendered.txt`. It is not the original .eml or raw MIME source; the original email and headers remain the authoritative private originals. The preserved body adds no investigation or enforcement outcome.
 
+- A further Cloudflare message concerning the same Report ID, `a5b2a25e9ec2dec5`, stated that the URLs included in the report were no longer accessible and asked the reporter to check the submitted URLs. The message did not provide a check timestamp, method, technical response or cause, and did not say Cloudflare had blocked or removed the URLs. It reiterated that Cloudflare is not the hosting provider of the reported content. The follow-up text was preserved as E-017 at `evidence/E-017-cloudflare-url-inaccessible-followup.txt`; the email's receipt timestamp and raw headers were not supplied.
+ 
 ## Current position — 26 November 2026
 
 | Item | Recorded position |
@@ -63,6 +65,7 @@ This timeline records known investigation and reporting milestones in chronologi
 | Epic Games investigation | Previously reported as ongoing |
 | Epic Games follow-up outcome | Pending |
 | Cloudflare Phishing report | Received; Report ID `a5b2a25e9ec2dec5` |
+| Cloudflare URL availability observation | Cloudflare says submitted URLs were no longer accessible when checked; time, method and cause unspecified |
 | Cloudflare investigation / enforcement outcome | Not provided / not established |
 | Website operator identity | Not established |
 | Epic Games affiliation | Not established |
