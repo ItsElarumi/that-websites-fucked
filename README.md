@@ -5,7 +5,7 @@
 
 This is Elarumi's independent cybersecurity, scam-awareness and player-safety investigation project.
 
-## LATEST CASE UPDATE — REG.RU CONFIRMS DOMAIN BLOCKING
+## LATEST CASE UPDATE — REG.RU CONFIRMS CURRENT BLOCK; DETAILS RESTRICTED
 
 REG.RU's Abuse Review Department replied to Elarumi's abuse report concerning `fortnitecompetitive[.]fun` with:
 
@@ -13,17 +13,17 @@ REG.RU's Abuse Review Department replied to Elarumi's abuse report concerning `f
 
 Translation: "The domain has been blocked."
 
-This confirms that REG.RU applied a blocking action to the domain. The supplied email excerpt does not establish whether the block is temporary or permanent, whether the registration has been deleted, or whether the website operator has been identified. This is a confirmed registrar response, not a conclusive finding of phishing or credential theft.
+REG.RU later clarified: “The domain is currently blocked. Detailed information regarding the block and the reasons for it can only be provided to the domain administrator.” This confirms REG.RU's stated current block and its disclosure limitation. It does not disclose the block's mechanism, duration, grounds, or whether the action was specifically linked to the abuse report. It is not a conclusive finding of phishing or credential theft.
 
-**25 November 2026 — follow-up correspondence:** Elarumi sent REG.RU a detailed clarification request in the existing support thread (reference `20261123373000095`). It asks about the nature and duration of the block, public DNS/access impact, whether the action followed the abuse report, any disclosable investigation outcome, further action and evidence retention. REG.RU's reply is pending.
+**25 November 2026 — clarification request:** Elarumi sent REG.RU a detailed clarification request in the existing support thread (reference `20261123373000095`). REG.RU replied that the domain is currently blocked and detailed information about the block and its reasons can only be provided to the domain administrator. The exact timestamp of that reply is not visible in the supplied excerpt.
 
 Elarumi also sent Epic Games Support a follow-up notifying it of REG.RU's blocking confirmation. No response to that follow-up is yet recorded.
 
-**Latest documented position:** The registrar's blocking statement is confirmed; the exact technical/legal scope and duration are not. Epic Games' earlier statement that it was investigating remains the latest substantive response recorded. No provider has confirmed credential theft, operator identity or a final phishing determination.
+**Latest documented position:** REG.RU says the domain is currently blocked but restricts detailed disclosure to the domain administrator. The block's mechanism, duration, reason and relationship to the abuse report remain undisclosed. Epic Games' earlier statement that it was investigating remains the latest substantive response recorded from Epic. No provider has confirmed credential theft, operator identity or a final phishing determination.
 
 **Case:** `ELARUMI-EPIC-2026-001`  
 **REG.RU support reference:** `20261123373000095`  
-**Registrar outcome:** Domain blocking confirmed; clarification requested, response pending  
+**Registrar outcome:** Current blocking confirmed by REG.RU; clarification response received, detailed information restricted to domain administrator  
 **Epic Games:** Support previously confirmed further investigation; findings and outcomes remain unconfirmed.
 
 See the [full investigation and reporting history](THAT-WEBSITES-FUCKED.md).
