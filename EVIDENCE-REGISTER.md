@@ -40,6 +40,8 @@ This register indexes evidence and records its provenance and limitations. It is
 
 | E-016 | 26 Nov 2026 | Cloudflare Phishing abuse-report receipt, Report ID `a5b2a25e9ec2dec5` | Email from Cloudflare Trust & Safety confirming receipt for `fortnitecompetitive.fun`; **receipt confirmed by provider email** | Cloudflare stated it received the Phishing report and warned that this may be the only response due to report volume. The report included the two reported URLs and the public investigation repository. Cloudflare clarified that it is not generally a website hosting provider and cannot remove material hosted by others. Receipt does not establish hosting responsibility, forwarding, investigation findings, removal or enforcement action. Reply address supplied: `abusereply@cloudflare.com`. Preserve the original email and headers privately. |
 
+| E-017 | 26 Nov 2026 (preservation date; email receipt timestamp not supplied) | Cloudflare follow-up: reported URLs no longer accessible | Follow-up email text supplied by the investigator, concerning existing Report ID `a5b2a25e9ec2dec5`; preserved as [evidence/E-017-cloudflare-url-inaccessible-followup.txt](evidence/E-017-cloudflare-url-inaccessible-followup.txt) | Cloudflare stated that the URLs in the report were no longer accessible and asked the reporter to check them. The message does not give the check time, method, response details or cause. It does not say Cloudflare blocked or removed the URLs, and does not attribute inaccessibility to Cloudflare or REG.RU. Cloudflare again stated it is not the hosting provider of the reported content. This is a follow-up on E-016's existing report, not a new report. Original email and full headers were not supplied with the text and should be retained privately if available. |
+
 ## Evidence storage and custody
 
 The investigation report states that some screenshots and technical captures were supplied. The public repository does not contain all original evidence. This register does not claim that originals, full email headers, raw lookup outputs or cryptographic hashes have all been collected.
@@ -68,7 +70,7 @@ Do not fill unknown fields by assumption. Mark them **unknown**, **not supplied*
 - **Inconclusive:** crt.sh HTTP 502 response.
 - **Unverified source:** reported SSL/TLS details.
 - **REG.RU clarification:** Response received; detailed block information and reasons are restricted to the domain administrator. The mechanism, duration, grounds and relationship to the abuse report remain undisclosed.
-- **Cloudflare:** Phishing report received by Cloudflare on 26 Nov 2026; Report ID `a5b2a25e9ec2dec5`. No investigation finding or enforcement outcome supplied.
+- **Cloudflare:** Phishing report receipt confirmed under Report ID `a5b2a25e9ec2dec5` (E-016). A follow-up message states that the reported URLs were no longer accessible when Cloudflare checked them (E-017); check time, method and cause are unspecified. No Cloudflare enforcement action or investigation finding is established.
 - **Pending:** Epic Games follow-up outcome.
 - **Not established:** website operator identity, Epic Games affiliation, credential collection or theft, successful compromise, permanent domain deletion, or a final phishing determination.
 
