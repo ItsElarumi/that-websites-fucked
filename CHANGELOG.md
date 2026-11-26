@@ -11,6 +11,8 @@ _No unreleased changes recorded._
 ## [2026-11-26]
 
 ### Added
+- Preserved Cloudflare's follow-up message on existing Report ID `a5b2a25e9ec2dec5`, stating that the submitted URLs were no longer accessible when checked; added E-017 transcription and documented the unknown check time, method and cause.
+- Updated the current case status to distinguish Cloudflare's URL-inaccessibility observation from any claim of Cloudflare enforcement.
 - Preserved the investigator-supplied HTML-rendered Cloudflare confirmation/report body as `evidence/E-016-cloudflare-report-body-rendered.txt`, linked it from E-016 and recorded that it is a transcription rather than the original .eml/raw MIME source.
 - Recorded Cloudflare's email confirmation that it received the Phishing report concerning `fortnitecompetitive.fun`; Cloudflare Report ID: `a5b2a25e9ec2dec5`.
 - Added evidence item E-016 and updated the main report, evidence register, case timeline, README and public investigation page.
@@ -18,7 +20,9 @@ _No unreleased changes recorded._
 - Refreshed the SHA-256 integrity manifest for updated documents and public page.
 
 ### Evidence and status limitations
-- Cloudflare's email confirms receipt only. It warns that this may be the only response and supplies no investigation finding, forwarding confirmation, removal or enforcement outcome.
+- Cloudflare's follow-up states that the URLs were no longer accessible at the time of its check, but does not identify why or claim that Cloudflare caused the change.
+- The relationship between the reported inaccessibility and REG.RU's earlier block statement is unknown.
+- Cloudflare's initial email confirms report receipt only. It warns that this may be the only response and supplies no investigation finding, forwarding confirmation, removal or enforcement outcome.
 - Cloudflare's clarification does not establish whether it provides any service to the reported domain or who hosts the website.
 
 ### Added
