@@ -86,3 +86,8 @@ For each new event, preserve the original source, record the date and time with 
 - [Repository overview](README.md)
 - [Changelog](CHANGELOG.md)
 - [SHA-256 manifest](integrity/SHA256SUMS.json)
+
+
+## Supplemental E-016 email-header authentication
+
+Proton Mail's recorded headers show SPF=pass, DKIM=pass for `notify.cloudflare.com` and `cloudflare-smtp.com`, and DMARC=pass. The message was received over TLS 1.3 from `bg-bc.cloudflare-smtp.com` (104.30.16.12). These results support authorised Cloudflare sending infrastructure but do not establish investigation or enforcement. The message body's reply address (`abusereply@cloudflare.com`) differs from the `Reply-To` header (`noreply@notify.cloudflare.com`); the discrepancy is documented without inferring its cause.
